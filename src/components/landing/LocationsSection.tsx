@@ -20,6 +20,8 @@ const locations = [
   },
 ];
 
+const upcoming = "🚧 Estamos em processo de expandir para novos pontos estratégicos na cidade. Em breve, mais locais disponíveis!";
+
 const LocationsSection = () => {
   const ref = useScrollAnimation();
 
