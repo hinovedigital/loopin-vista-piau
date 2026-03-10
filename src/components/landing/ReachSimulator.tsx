@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const WHATSAPP_LINK = "https://wa.me/5589981486496?text=Olá!%20Quero%20anunciar%20na%20Loopin%20TV";
-const VIEWS_PER_HOUR = 50;
+const VIEWS_PER_HOUR = 15;
 
 const ReachSimulator = () => {
   const ref = useScrollAnimation();
@@ -73,7 +73,7 @@ const ReachSimulator = () => {
               pessoas por mês em São José do Piauí
             </p>
             <p className="text-on-dark/40 text-xs font-body mt-3 italic">
-              Isso é mais do que qualquer panfleto ou impulsionamento básico no Instagram entrega por esse preço.
+              Em uma cidade de ~10 mil habitantes, isso significa que boa parte da população verá sua marca todo mês.
             </p>
           </div>
 

@@ -1,9 +1,23 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
+import hsImportsLogo from "@/assets/hs_imports.png";
+import authenticLogo from "@/assets/authentic_academia.png";
 
 const locations = [
-  { name: "Praça Central de São José do Piauí", desc: "Ponto de maior circulação da cidade." },
-  { name: "Área Comercial da HS Imports", desc: "Onde os compradores já estão — máxima exposição para seu negócio." },
-  { name: "Acesso Principal da Cidade", desc: "Passagem obrigatória de quem entra e sai de São José do Piauí." },
+  {
+    name: "HS Imports",
+    desc: "Área comercial movimentada — onde os compradores já estão. Máxima exposição para seu negócio.",
+    logo: hsImportsLogo,
+  },
+  {
+    name: "Authentic Academia",
+    desc: "Fluxo diário constante de alunos e visitantes — sua marca vista por quem cuida da saúde.",
+    logo: authenticLogo,
+  },
+  {
+    name: "Acesso Principal da Cidade",
+    desc: "Passagem obrigatória de quem entra e sai de São José do Piauí.",
+    logo: null,
+  },
 ];
 
 const LocationsSection = () => {
@@ -16,13 +30,19 @@ const LocationsSection = () => {
           Onde Sua Marca Vai <span className="text-primary">Aparecer</span>?
         </h2>
         <p className="text-on-light/60 text-center text-lg mb-16 max-w-2xl mx-auto font-body">
-          Nossas TVs estão instaladas em pontos turísticos e estratégicos da cidade — onde seu público já está.
+          Nossas TVs estão instaladas em parceiros estratégicos da cidade — onde seu público já está.
         </p>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
           {locations.map((loc) => (
             <div key={loc.name} className="bg-primary/5 rounded-2xl p-8 border border-primary/10 text-center space-y-4 hover:border-primary/30 transition-colors">
-              <div className="text-3xl">📍</div>
+              {loc.logo ? (
+                <div className="w-20 h-20 rounded-full bg-background border border-border mx-auto flex items-center justify-center overflow-hidden">
+                  <img src={loc.logo} alt={loc.name} className="w-16 h-16 object-contain" />
+                </div>
+              ) : (
+                <div className="text-3xl">📍</div>
+              )}
               <h3 className="font-display text-lg font-bold text-on-light">{loc.name}</h3>
               <p className="text-on-light/60 font-body">{loc.desc}</p>
             </div>
@@ -30,7 +50,7 @@ const LocationsSection = () => {
         </div>
 
         <p className="text-center text-primary font-semibold mt-12 text-lg">
-          ✨ Milhares de visualizações por dia em cada ponto
+          ✨ Sua marca presente nos pontos de maior movimento da cidade
         </p>
       </div>
     </section>

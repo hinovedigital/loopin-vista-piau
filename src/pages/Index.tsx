@@ -3,7 +3,6 @@ import ProblemSection from "@/components/landing/ProblemSection";
 import SolutionSection from "@/components/landing/SolutionSection";
 import LocationsSection from "@/components/landing/LocationsSection";
 import BeforeAfterSection from "@/components/landing/BeforeAfterSection";
-import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import ReachSimulator from "@/components/landing/ReachSimulator";
 import PricingSection from "@/components/landing/PricingSection";
 import BenefitsSection from "@/components/landing/BenefitsSection";
@@ -22,7 +21,6 @@ const Index = () => {
       <SolutionSection />
       <LocationsSection />
       <BeforeAfterSection />
-      <TestimonialsSection />
       <ReachSimulator />
       <PricingSection />
       <BenefitsSection />
