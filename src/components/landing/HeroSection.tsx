@@ -34,7 +34,7 @@ const HeroSection = () => {
             </h1>
 
             <p className="text-lg text-on-dark/70 max-w-lg font-body leading-relaxed">
-              Anuncie nas TVs estratégicas da cidade e seja visto por milhares
+              Anuncie nas TVs estratégicas da cidade e seja visto por centenas
               de clientes todos os dias — por menos de R$ 2 por dia.
             </p>
 
