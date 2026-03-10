@@ -11,7 +11,7 @@ const plans = [
 const premiumPlan = {
   name: "Máximo Impacto",
    desc: "3 TVs + 1 Telão de LED (HS Imports)",
-  price: null as number | null,
+  price: 150 as number | null,
   badge: "Maior Alcance 🚀",
   includes: [
     "Exibição 24h/dia, 7 dias/semana",
