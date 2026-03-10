@@ -10,7 +10,7 @@ const without = [
 ];
 
 const withLoopin = [
-  "Marca exibida 24/7 nos pontos estratégicos da cidade",
+  "Marca exibida 8h por dia, 7 dias por semana nos pontos estratégicos da cidade",
   "Conteúdo atualizado facilmente via WhatsApp",
   "Reconhecimento de marca crescendo",
   "Mais clientes entrando",
