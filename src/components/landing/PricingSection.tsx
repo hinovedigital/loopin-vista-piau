@@ -24,7 +24,7 @@ const premiumPlan = {
 };
 
 const includes = [
-  "Exibição 24h/dia, 7 dias/semana",
+  "Exibição 8h/dia, 7 dias/semana",
   "Atualização de conteúdo via WhatsApp",
   "Suporte local dedicado",
   "Flexibilidade para alterar anúncios",
