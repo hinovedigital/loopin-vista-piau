@@ -10,7 +10,7 @@ const plans = [
 
 const premiumPlan = {
   name: "Máximo Impacto",
-  desc: "3 TVs + 1 Telão de LED (HS Imports)",
+   desc: "3 TVs + 1 Telão de LED (HS Imports)",
   price: null as number | null,
   badge: "Maior Alcance 🚀",
   includes: [
