@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const pains = [
@@ -20,23 +21,42 @@ const ProblemSection = () => {
 
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-4xl mx-auto">
           <div className="space-y-5">
-            {pains.map((pain) => (
-              <div key={pain} className="flex items-start gap-3">
+            {pains.map((pain, i) => (
+              <motion.div
+                key={pain}
+                className="flex items-start gap-3"
+                initial={{ opacity: 0, x: -20 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.1, duration: 0.4 }}
+              >
                 <span className="text-destructive text-xl mt-0.5">✕</span>
                 <p className="text-on-light/80 text-lg font-body">{pain}</p>
-              </div>
+              </motion.div>
             ))}
-            <p className="text-on-light font-body font-semibold text-lg mt-6 bg-destructive/10 border border-destructive/20 rounded-xl p-4">
+            <motion.p
+              className="text-on-light font-body font-semibold text-lg mt-6 bg-destructive/10 border border-destructive/20 rounded-xl p-4"
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.5 }}
+            >
               ⚠️ Cada dia sem presença física é um cliente que escolheu outra empresa.
-            </p>
+            </motion.p>
           </div>
 
-          <div className="bg-primary/5 rounded-2xl p-8 border border-primary/10">
+          <motion.div
+            className="bg-primary/5 rounded-2xl p-8 border border-primary/10"
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+          >
             <div className="text-6xl text-primary/30 font-display mb-4">∞</div>
             <p className="text-on-light text-lg font-body leading-relaxed">
               A <strong className="text-primary">Loopin TV</strong> coloca sua marca nos lugares certos, para as pessoas certas, no momento certo.
             </p>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
