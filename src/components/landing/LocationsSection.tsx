@@ -50,8 +50,6 @@ const LocationsSection = () => {
         </div>
 
         <p className="text-center text-primary font-semibold mt-12 text-lg">
-          ✨ Milhares de visualizações por dia em cada ponto
-        </p>
           ✨ Sua marca presente nos pontos de maior movimento da cidade
         </p>
       </div>
