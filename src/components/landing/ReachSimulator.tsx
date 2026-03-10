@@ -73,7 +73,7 @@ const ReachSimulator = () => {
               pessoas por mês em São José do Piauí
             </p>
             <p className="text-on-dark/40 text-xs font-body mt-3 italic">
-              Isso é mais do que qualquer panfleto ou impulsionamento básico no Instagram entrega por esse preço.
+              Em uma cidade de ~10 mil habitantes, isso significa que boa parte da população verá sua marca todo mês.
             </p>
           </div>
 
