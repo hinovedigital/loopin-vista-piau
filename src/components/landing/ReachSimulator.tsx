@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
-const WHATSAPP_LINK = "https://wa.me/5500000000000";
+const WHATSAPP_LINK = "https://wa.me/5589981486496?text=Olá!%20Quero%20anunciar%20na%20Loopin%20TV";
 const VIEWS_PER_HOUR = 50;
 
 const ReachSimulator = () => {
@@ -71,6 +71,9 @@ const ReachSimulator = () => {
             </p>
             <p className="text-on-dark/50 text-sm font-body mt-2">
               pessoas por mês em São José do Piauí
+            </p>
+            <p className="text-on-dark/40 text-xs font-body mt-3 italic">
+              Isso é mais do que qualquer panfleto ou impulsionamento básico no Instagram entrega por esse preço.
             </p>
           </div>
 

@@ -1,6 +1,6 @@
 import logo from "@/assets/logo_transparente.png";
 
-const WHATSAPP_LINK = "https://wa.me/5500000000000";
+const WHATSAPP_LINK = "https://wa.me/5589981486496?text=Olá!%20Quero%20anunciar%20na%20Loopin%20TV";
 
 const HeroSection = () => {
   return (
@@ -28,23 +28,22 @@ const HeroSection = () => {
             </span>
 
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-on-dark leading-[1.1]">
-              Sua Marca Vista por{" "}
-              <span className="text-primary">Centenas de Pessoas</span> Todos os
-              Dias
+              Sua Marca Aparece para{" "}
+              <span className="text-primary">Quem Compra</span> em São José do
+              Piauí
             </h1>
 
             <p className="text-lg text-on-dark/70 max-w-lg font-body leading-relaxed">
-              Publicidade em TVs estratégicas pela cidade. Anuncie nos pontos
-              mais movimentados, atualize seu conteúdo a qualquer momento e
-              atraia mais clientes com custo acessível.
+              Anuncie nas TVs estratégicas da cidade e seja visto por milhares
+              de clientes todos os dias — por menos de R$ 2 por dia.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta">
-                📲 Anunciar no WhatsApp Agora
+                📲 Quero Anunciar Agora
               </a>
               <a href="#planos" className="btn-cta-outline border-on-dark/30 text-on-dark/80 hover:bg-on-dark/10 hover:text-on-dark">
-                Ver nossos planos ↓
+                Ver os Planos ↓
               </a>
             </div>
 
@@ -59,10 +58,11 @@ const HeroSection = () => {
           <div className="hidden lg:flex justify-center">
             <div className="relative">
               <div className="w-[420px] h-[260px] rounded-2xl border-4 border-on-dark/20 bg-surface-dark-elevated flex items-center justify-center overflow-hidden">
-                <div className="absolute inset-2 rounded-xl bg-gradient-to-br from-primary/30 to-primary/5 flex items-center justify-center">
+                <div className="absolute inset-2 rounded-xl bg-gradient-to-br from-primary/30 to-primary/5 flex items-center justify-center p-6">
                   <div className="text-center space-y-3">
-                    <div className="text-6xl">📺</div>
-                    <p className="text-on-dark/60 text-sm font-medium">Seu anúncio aqui</p>
+                    <p className="text-primary font-display font-bold text-2xl">🍔 Lanchonete do João</p>
+                    <p className="text-on-dark/80 font-body text-sm">Combo Família — R$ 39,90</p>
+                    <p className="text-on-dark/50 font-body text-xs">Rua Principal, 123 • Peça pelo WhatsApp!</p>
                   </div>
                 </div>
               </div>

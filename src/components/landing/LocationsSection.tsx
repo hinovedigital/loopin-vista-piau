@@ -1,9 +1,9 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const locations = [
-  { name: "Ponto Turístico Central", desc: "Alto fluxo de visitantes e moradores durante todo o dia." },
-  { name: "Área Comercial Movimentada", desc: "Onde os compradores já estão — máxima exposição para seu negócio." },
-  { name: "Local de Grande Fluxo", desc: "Passagem obrigatória de centenas de pessoas diariamente." },
+  { name: "Praça Central de São José do Piauí", desc: "Ponto de maior circulação da cidade." },
+  { name: "Área Comercial da HS Imports", desc: "Onde os compradores já estão — máxima exposição para seu negócio." },
+  { name: "Acesso Principal da Cidade", desc: "Passagem obrigatória de quem entra e sai de São José do Piauí." },
 ];
 
 const LocationsSection = () => {
@@ -30,7 +30,7 @@ const LocationsSection = () => {
         </div>
 
         <p className="text-center text-primary font-semibold mt-12 text-lg">
-          ✨ Centenas de visualizações por dia em cada ponto
+          ✨ Milhares de visualizações por dia em cada ponto
         </p>
       </div>
     </section>

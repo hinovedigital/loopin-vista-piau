@@ -20,7 +20,7 @@ const Footer = () => (
           <a href="https://instagram.com/loopin.tv" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
             📸 @loopin.tv
           </a>
-          <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
+          <a href="https://wa.me/5589981486496" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">
             💬 WhatsApp
           </a>
         </div>

@@ -1,6 +1,6 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
-const WHATSAPP_LINK = "https://wa.me/5500000000000";
+const WHATSAPP_LINK = "https://wa.me/5589981486496?text=Olá!%20Vi%20o%20site%20da%20Loopin%20TV%20e%20quero%20saber%20mais";
 
 const FinalCTASection = () => {
   const ref = useScrollAnimation();

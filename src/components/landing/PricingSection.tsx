@@ -1,12 +1,27 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
-const WHATSAPP_LINK = "https://wa.me/5500000000000";
+const WHATSAPP_LINK = "https://wa.me/5589981486496?text=Olá!%20Tenho%20interesse%20em%20anunciar%20na%20Loopin%20TV";
 
 const plans = [
   { name: "Básico", tvs: 1, price: 60, perTv: 60, featured: false },
   { name: "Crescimento", tvs: 2, price: 80, perTv: 40, featured: false },
   { name: "Impacto", tvs: 3, price: 100, perTv: 33.33, featured: true, badge: "Melhor Custo-Benefício 🏆" },
 ];
+
+const premiumPlan = {
+  name: "Máximo Impacto",
+  desc: "3 TVs + 1 Telão de LED (HS Imports)",
+  price: null as number | null,
+  badge: "Maior Alcance 🚀",
+  includes: [
+    "Exibição 24h/dia, 7 dias/semana",
+    "1 Telão de LED externo na fachada da HS Imports",
+    "Maior visibilidade da cidade",
+    "Atualização de conteúdo via WhatsApp",
+    "Suporte local dedicado",
+  ],
+  exclusive: "Exclusivo — apenas 1 vaga disponível",
+};
 
 const includes = [
   "Exibição 24h/dia, 7 dias/semana",
@@ -28,7 +43,7 @@ const PricingSection = () => {
           Publicidade profissional por menos do que você imagina
         </p>
 
-        <div className="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto items-end">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto items-end">
           {plans.map((plan) => (
             <div
               key={plan.name}
@@ -75,6 +90,51 @@ const PricingSection = () => {
               </div>
             </div>
           ))}
+
+          {/* Premium Plan */}
+          <div
+            className="rounded-2xl p-8 relative transition-all bg-surface-dark-elevated"
+            style={{
+              border: "2px solid transparent",
+              backgroundClip: "padding-box",
+              boxShadow: "0 0 40px hsla(45, 90%, 50%, 0.2), inset 0 0 0 2px hsla(45, 90%, 50%, 0.5)",
+            }}
+          >
+            <span className="absolute -top-4 left-1/2 -translate-x-1/2 text-xs font-bold px-4 py-1.5 rounded-full whitespace-nowrap" style={{ background: "linear-gradient(135deg, hsl(45, 90%, 50%), hsl(35, 90%, 45%))", color: "hsl(35, 90%, 10%)" }}>
+              {premiumPlan.badge}
+            </span>
+            <div className="text-center space-y-4">
+              <h3 className="font-display text-xl font-bold" style={{ color: "hsl(45, 90%, 60%)" }}>{premiumPlan.name}</h3>
+              <p className="text-on-dark/50 font-body text-sm">{premiumPlan.desc}</p>
+              <div>
+                <span className="font-display text-3xl font-bold" style={{ color: "hsl(45, 90%, 60%)" }}>Consulte</span>
+                <span className="text-on-dark/40 font-body text-sm block mt-1">Valor sob consulta</span>
+              </div>
+
+              <ul className="text-left space-y-2 pt-4 border-t border-on-dark/10">
+                {premiumPlan.includes.map((item) => (
+                  <li key={item} className="flex items-start gap-2 text-on-dark/60 text-sm font-body">
+                    <span className="text-primary">✅</span>
+                    {item}
+                  </li>
+                ))}
+                <li className="flex items-start gap-2 text-sm font-body font-semibold" style={{ color: "hsl(45, 90%, 60%)" }}>
+                  <span>🏆</span>
+                  {premiumPlan.exclusive}
+                </li>
+              </ul>
+
+              <a
+                href={WHATSAPP_LINK}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 w-full px-8 py-4 rounded-full font-semibold text-base transition-all duration-300"
+                style={{ background: "linear-gradient(135deg, hsl(45, 90%, 50%), hsl(35, 90%, 45%))", color: "hsl(35, 90%, 10%)" }}
+              >
+                Contratar via WhatsApp
+              </a>
+            </div>
+          </div>
         </div>
 
         <div className="max-w-2xl mx-auto mt-12 text-center">

@@ -1,6 +1,6 @@
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
-const WHATSAPP_LINK = "https://wa.me/5500000000000";
+const WHATSAPP_LINK = "https://wa.me/5589981486496?text=Olá!%20Tenho%20interesse%20em%20anunciar%20na%20Loopin%20TV";
 
 const without = [
   "Empresa paga panfletos e não sabe quantas pessoas viram",
@@ -62,7 +62,7 @@ const BeforeAfterSection = () => {
 
         <div className="text-center mt-12">
           <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="btn-cta">
-            ⚡ Quero Essa Transformação
+            ⚡ Quero Aparecer Para Mais Clientes
           </a>
         </div>
       </div>

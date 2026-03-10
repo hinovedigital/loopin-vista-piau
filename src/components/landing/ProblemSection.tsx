@@ -14,7 +14,8 @@ const ProblemSection = () => {
     <section className="section-light py-24">
       <div className="container mx-auto px-6 animate-on-scroll" ref={ref}>
         <h2 className="font-display text-3xl sm:text-4xl font-bold text-on-light text-center mb-16">
-          Sua empresa ainda está <span className="text-primary">invisível</span> para quem passa na rua?
+          Enquanto você hesita, seu concorrente já está{" "}
+          <span className="text-primary">sendo visto.</span>
         </h2>
 
         <div className="grid md:grid-cols-2 gap-12 items-center max-w-4xl mx-auto">
@@ -25,6 +26,9 @@ const ProblemSection = () => {
                 <p className="text-on-light/80 text-lg font-body">{pain}</p>
               </div>
             ))}
+            <p className="text-on-light font-body font-semibold text-lg mt-6 bg-destructive/10 border border-destructive/20 rounded-xl p-4">
+              ⚠️ Cada dia sem presença física é um cliente que escolheu outra empresa.
+            </p>
           </div>
 
           <div className="bg-primary/5 rounded-2xl p-8 border border-primary/10">
