@@ -21,7 +21,6 @@ const Index = () => {
       <SolutionSection />
       <LocationsSection />
       <BeforeAfterSection />
-      <TestimonialsSection />
       <ReachSimulator />
       <PricingSection />
       <BenefitsSection />
