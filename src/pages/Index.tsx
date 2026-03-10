@@ -3,7 +3,7 @@ import ProblemSection from "@/components/landing/ProblemSection";
 import SolutionSection from "@/components/landing/SolutionSection";
 import LocationsSection from "@/components/landing/LocationsSection";
 import BeforeAfterSection from "@/components/landing/BeforeAfterSection";
-import ReachSimulator from "@/components/landing/ReachSimulator";
+
 import PricingSection from "@/components/landing/PricingSection";
 import BenefitsSection from "@/components/landing/BenefitsSection";
 import AboutSection from "@/components/landing/AboutSection";
