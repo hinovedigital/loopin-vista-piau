@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const WHATSAPP_LINK = "https://wa.me/5589981486496?text=Olá!%20Quero%20anunciar%20na%20Loopin%20TV";
-const VIEWS_PER_HOUR = 50;
+const VIEWS_PER_HOUR = 15;
 
 const ReachSimulator = () => {
   const ref = useScrollAnimation();
