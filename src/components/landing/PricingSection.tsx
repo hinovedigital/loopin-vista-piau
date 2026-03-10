@@ -14,7 +14,7 @@ const premiumPlan = {
   price: 150 as number | null,
   badge: "Maior Alcance 🚀",
   includes: [
-    "Exibição 24h/dia, 7 dias/semana",
+    "Exibição 8h/dia, 7 dias/semana",
     "1 Telão de LED externo na fachada da HS Imports",
     "Maior visibilidade da cidade",
     "Atualização de conteúdo via WhatsApp",
