@@ -2,7 +2,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const stats = [
   { icon: "📺", label: "3 TVs estratégicas instaladas" },
-  { icon: "👥", label: "Centenas de visualizações/dia" },
+  { icon: "👥", label: "Milhares de visualizações/dia" },
   { icon: "🏪", label: "Empresas locais já anunciando" },
 ];
 

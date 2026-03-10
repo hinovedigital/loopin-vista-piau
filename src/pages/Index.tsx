@@ -3,14 +3,16 @@ import ProblemSection from "@/components/landing/ProblemSection";
 import SolutionSection from "@/components/landing/SolutionSection";
 import LocationsSection from "@/components/landing/LocationsSection";
 import BeforeAfterSection from "@/components/landing/BeforeAfterSection";
+import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import ReachSimulator from "@/components/landing/ReachSimulator";
 import PricingSection from "@/components/landing/PricingSection";
-import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import BenefitsSection from "@/components/landing/BenefitsSection";
 import AboutSection from "@/components/landing/AboutSection";
 import FAQSection from "@/components/landing/FAQSection";
 import FinalCTASection from "@/components/landing/FinalCTASection";
+import ScarcitySection from "@/components/landing/ScarcitySection";
 import Footer from "@/components/landing/Footer";
+import WhatsAppFloat from "@/components/landing/WhatsAppFloat";
 
 const Index = () => {
   return (
@@ -20,14 +22,16 @@ const Index = () => {
       <SolutionSection />
       <LocationsSection />
       <BeforeAfterSection />
+      <TestimonialsSection />
       <ReachSimulator />
       <PricingSection />
-      <TestimonialsSection />
       <BenefitsSection />
       <AboutSection />
       <FAQSection />
       <FinalCTASection />
+      <ScarcitySection />
       <Footer />
+      <WhatsAppFloat />
     </main>
   );
 };
