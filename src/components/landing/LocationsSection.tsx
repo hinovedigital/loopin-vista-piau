@@ -54,6 +54,9 @@ const LocationsSection = () => {
         <p className="text-center text-primary font-semibold mt-12 text-lg">
           ✨ Sua marca presente nos pontos de maior movimento da cidade
         </p>
+        <p className="text-center text-on-light/60 font-body mt-4 max-w-2xl mx-auto bg-primary/5 border border-primary/10 rounded-xl p-4">
+          {upcoming}
+        </p>
       </div>
     </section>
   );

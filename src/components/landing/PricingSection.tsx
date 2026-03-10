@@ -107,8 +107,8 @@ const PricingSection = () => {
               <h3 className="font-display text-xl font-bold" style={{ color: "hsl(45, 90%, 60%)" }}>{premiumPlan.name}</h3>
               <p className="text-on-dark/50 font-body text-sm">{premiumPlan.desc}</p>
               <div>
-                <span className="font-display text-3xl font-bold" style={{ color: "hsl(45, 90%, 60%)" }}>Consulte</span>
-                <span className="text-on-dark/40 font-body text-sm block mt-1">Valor sob consulta</span>
+                <span className="font-display text-4xl font-bold" style={{ color: "hsl(45, 90%, 60%)" }}>R$ 150</span>
+                <span className="text-on-dark/40 font-body text-sm block mt-1">/mês</span>
               </div>
 
               <ul className="text-left space-y-2 pt-4 border-t border-on-dark/10">

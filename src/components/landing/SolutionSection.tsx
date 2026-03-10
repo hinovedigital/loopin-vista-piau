@@ -3,7 +3,7 @@ import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 const steps = [
   { icon: "📋", num: "01", title: "Escolha Seu Plano", desc: "Selecione 1, 2 ou 3 TVs conforme sua estratégia e orçamento." },
   { icon: "📤", num: "02", title: "Envie Sua Mídia", desc: "Mande seu anúncio (imagem, vídeo ou texto) pelo WhatsApp. Nossa equipe cuida da exibição otimizada nas telas." },
-  { icon: "🚀", num: "03", title: "Sua Marca no Ar!", desc: "Publicidade exibida 24h por dia, 7 dias por semana nos pontos mais movimentados de São José do Piauí." },
+  { icon: "🚀", num: "03", title: "Sua Marca no Ar!", desc: "Publicidade exibida 8 horas por dia, 7 dias por semana nos pontos mais movimentados de São José do Piauí." },
 ];
 
 const SolutionSection = () => {
